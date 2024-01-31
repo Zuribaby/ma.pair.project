@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --pink: #e84393
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Quicksand;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transform: .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+.header {
+  position: fixed;
+  top: 0; left: 0;right: 0;
+  background: #fff;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0.3rem 0.3rem rgb(0, 0, 0, 0.1);
+
+}
+
+header .logo {
+  font-size: 3rem;
+  color: #333;
+  font-weight: bolder;
+}
+
+header .logo span{
+  color: var(--pink);
+}
+
+header .navbar a {
+  
+}
