@@ -94,33 +94,33 @@ header .fa-bars {
   html .fa-bars {
     display: block;
   }
-}
-header .navbar {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: #eee;
-  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
-  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-}
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #eee;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
 
-header #toggler:checked ~ .navbar {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-}
-header .navbar a {
-  margin: 1.5rem;
-  padding: 1.5rem;
-  background: #fff;
-  border: 1rem solid rgba(0, 0, 0, 0.1);
-  display: block;
+  header #toggler:checked ~ .navbar {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  header .navbar a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1rem solid rgba(0, 0, 0, 0.1);
+    display: block;
+  }
 }
 
 .home {
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background: url(/images/picHome.avif) no-repeat;
+  background: url(./images/homepagePic.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -146,6 +146,15 @@ header .navbar a {
   color: #999;
   padding: 1rem 0;
   line-height: 1.5;
+  background-color: #ffd1dc;
+}
+.home .btn {
+  font-size: 16px;
+  color: var(--pink);
+  font-weight: bold;
+  border: 1px solid#e84393;
+  border-radius: 15px;
+  padding: 3px;
 }
 
 .about .row {
@@ -197,6 +206,14 @@ header .navbar a {
   padding: 0.5rem 0;
   padding-top: 1rem;
   line-height: 1.5;
+}
+.about .btn {
+  font-size: 16px;
+  color: var(--pink);
+  font-weight: bold;
+  border: 1px solid#e84393;
+  border-radius: 15px;
+  padding: 3px;
 }
 .icons-container {
   background: #eee;

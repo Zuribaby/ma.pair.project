@@ -1,125 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Flower Website Design</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <label for="toggler" class="fas fa-bars"></label>
+    <input type="checkbox" name="toggler" id="toggler">
+    <a href="#" class="logo">Blossom<span>.</span></a>
 
-    <title>Responsive Flower Website Design</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="/one-style.css" />
-  </head>
-  <body>
-    <!-- Header Section -->
-    <header class="header">
-      <label for="toggler" class="fas fa-bars"></label>
-      <input type="checkbox" name="toggler" id="toggler" />
-      <a href="#" class="logo">Blossom<span>.</span></a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-      <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#products">Products</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+      <a href="#" class=" fas fa-user"></a>
 
-      <div class="icons">
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
-        <a href="#" class="fas fa-user"></a>
-      </div>
-    </header>
+    </div>
 
-    <!-- Home Section -->
+  </header>
 
-    <section class="home" id="home">
-      <div class="content">
-        <h3>Blossom Flowers</h3>
-        <span>Fresh & beautiful flowers</span>
-        <p>
-          Welcome to our flower shop, where blossoms come to life with
-          unparalleled quality and freshness.
-        </p>
-        <a href="#products" class="btn"> Shop Now</a>
-      </div>
-    </section>
-
-    <!--About section-->
-
-    <section class="about" id="about">
-      <h1 class="heading"><span>About</span> us</h1>
-      <div class="row">
-        <div class="video-container">
-          <video
-            src="./images/AboutSectionFlowerVideo.mp4"
-            loop
-            autoplay
-            muted
-          ></video>
-          <h3>Best flowers sellers</h3>
-        </div>
-        <div class="content">
-          <h3>Why choose us?</h3>
-          <p>
-            Welcome to our flower shop, where blossoms come to life with
-            unparalleled quality and freshness. Our expert florists, armed with
-            creativity and a passion for their craft, stand ready to turn your
-            floral dreams into reality. At Blossom, what truly sets us apart is
-            our dedication to customer satisfaction, echoed in the glowing
-            reviews and testimonials from our delighted clientele. From
-            exclusive and signature designs to environmentally friendly
-            practices, we strive to exceed expectations.
-          </p>
-          <p>
-            Our easy ordering process, whether online or in-store, ensures a
-            seamless experience. Specializing in occasions that matter most, we
-            craft stunning arrangements for weddings, anniversaries, birthdays,
-            and more. As a proud member of the community, Blossom is not just a
-            flower shop; it's a destination where beauty, quality, and
-            communitys converge.
-          </p>
-          <a href="#" class="btn">Learn More</a>
-        </div>
-      </div>
-    </section>
-
-    <!--icon section-->
-
-    <section class="icons-container">
-      <div class="icons">
-        <img src="./images/Delivery Express Logo.png" alt="delivery logo" />
-        <div class="info">
-          <h3>Free delivery</h3>
-          <span>on all orders</span>
-        </div>
-      </div>
-
-      <div class="icons">
-        <img src="/images/payback.png" alt="icon pic" />
-        <div class="info">
-          <h3>10 days returns</h3>
-          <span>Moneyback guarantee</span>
-        </div>
-      </div>
-
-      <div class="icons">
-        <img src="/images/Offers and gifts.png" alt="icon picture" />
-        <div class="info">
-          <h3>offer & gifts</h3>
-          <span>On all orders</span>
-        </div>
-      </div>
-
-      <div class="icons">
-        <img src="/images/secure paymenst.png" alt="icon pictureSecure" />
-        <div class="info">
-          <h3>Secure payments</h3>
-          <span>Protected by paypal</span>
-        </div>
-      </div>
-    </section>
-  </body>
+  <!-- Home Section -->
+<section class="home" id="home">
+  <div class="content">
+    <h3>Blossom Flowers</h3>
+    <span>Fresh & beautiful flowers</span>
+    <p>
+      Welcome to our flower shop, where blossoms come to life with
+      unparalleled quality and freshness.
+    </p>
+    <a href="#products" class="btn"> Shop Now</a>
+  </div>
+</section>
+<!--About section-->
+<section class="about" id="about">
+  <div class="row">
+    <div class="video-container">
+      <video
+        src="./images/AboutSectionFlowerVideo.mp4"
+        loop
+        autoplay
+        muted
+      ></video>
+      <h3>Best flowers sellers</h3>
+    </div>
+    <div class="content">
+      <h3>Why choose us?</h3>
+      <p>
+        Welcome to our flower shop, where blossoms come to life with
+        unparalleled quality and freshness. Our expert florists, armed with
+        creativity and a passion for their craft, stand ready to turn your
+        floral dreams into reality. At Blossom, what truly sets us apart is
+        our dedication to customer satisfaction, echoed in the glowing
+        reviews and testimonials from our delighted clientele. From
+        exclusive and signature designs to environmentally friendly
+        practices, we strive to exceed expectations.
+      </p>
+      <p>
+        Our easy ordering process, whether online or in-store, ensures a
+        seamless experience. Specializing in occasions that matter most, we
+        craft stunning arrangements for weddings, anniversaries, birthdays,
+        and more. As a proud member of the community, Blossom is not just a
+        flower shop; it's a destination where beauty, quality, and
+        communitys converge.
+      </p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </div>
+</section>
+<!--icon section-->
+<section class="icons-container">
+  <div class="icons">
+    <img src="./images/Delivery Express Logo.png" alt="delivery logo" />
+    <div class="info">
+      <h3>Free delivery</h3>
+      <span>on all orders</span>
+    </div>
+  </div>
+  <div class="icons">
+    <img src="./images/payback.png" alt="icon pic" />
+    <div class="info">
+      <h3>10 days returns</h3>
+      <span>Moneyback guarantee</span>
+    </div>
+  </div>
+  <div class="icons">
+    <img src="./images/Offers and gifts.png" alt="icon picture" />
+    <div class="info">
+      <h3>offer & gifts</h3>
+      <span>On all orders</span>
+    </div>
+  </div>
+  <div class="icons">
+    <img src="./images/secure paymenst.png" alt="icon pictureSecure" />
+    <div class="info">
+      <h3>Secure payments</h3>
+      <span>Protected by paypal</span>
+    </div>
+  </div>
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
