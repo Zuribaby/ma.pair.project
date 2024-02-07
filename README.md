@@ -1,3 +1,4 @@
+Link to our Github page: https://zuribaby.github.io/ma.pair.project
 Challenge Three: Build a Flower Shop Website:
 Objective: Design a webpage for a fictional flower shop, showcasing various floral arrangements, services, and contact information.
 
@@ -12,4 +13,3 @@ Include descriptions and pricing information for each type of floral arrangement
 Implement a responsive design to ensure the webpage adapts well to different screen sizes.
 Test the webpage on various browsers to ensure compatibility and functionality.
 Optionally, include a contact form or contact information for customers to place orders or make inquiries.
-https://zuribaby.github.io/ma.pair.project/
